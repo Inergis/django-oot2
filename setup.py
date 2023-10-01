@@ -26,7 +26,7 @@ setup(
     author="Yaco Sistemas S.L.",
     author_email="precio@yaco.es",
     description="Django application to export content to OpenOffice documents",
-    long_description=(read('README')),
+    long_description=(read('README.md')),
     classifiers=[
         'Development Status :: 4 - Beta',
         'Framework :: Django',
