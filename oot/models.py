@@ -21,8 +21,11 @@ from django.utils.translation import ugettext_lazy as _
 class WriterTemplate(models.Model):
     title = models.CharField(_(u'title'), max_length=100)
     template = models.FileField(_(u'template'), upload_to='oot')
-    content_type = models.ForeignKey(ContentType,
-        verbose_name=_(u'content type'))
+    content_type = models.ForeignKey(
+        ContentType,
+        verbose_name=_(u'content type'),
+        on_delete=models.CASCADE
+    )
 
     class Meta:
         verbose_name = _(u'writer template')
