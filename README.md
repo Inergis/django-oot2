@@ -1,6 +1,6 @@
 # OpenOffice.org Writer template rendering
 
-Modification of https://pypi.org/project/django-oot/#files to be made compatible with Django 2.2 and Python 3.6
+https://pypi.org/project/django-oot/ maded compatible with Django 2.2 and Python 3.6
 
 
 # Installation

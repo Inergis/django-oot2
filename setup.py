@@ -22,7 +22,7 @@ def read(*rnames):
 
 setup(
     name="django-oot",
-    version="0.8.4",
+    version="0.8.5",
     author="Yaco Sistemas S.L.",
     author_email="precio@yaco.es",
     description="Django application to export content to OpenOffice documents",
